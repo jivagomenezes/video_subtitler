@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# App bundle (generated — run build_app.sh to recreate)
+Video Subtitle.app/
+*.app/
+
+# Icon build artifacts
+icon.iconset/
+icon.icns
+
+# Generated subtitles / output
+*.srt
+*.vtt
+
+# Claude IDE settings
+.claude/
+
+# Scratch / backup files
+*copy*.py
+"legendar copy.py"
+
+# py2app
+setup.py
+venv/
+__pycache__/
+*.pyc
+release/
+.DS_Store

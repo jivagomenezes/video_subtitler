@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Add Homebrew paths so ffmpeg is found regardless of how the .app is launched
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+source "/Users/jivagomenezes/DEV/video_subtitle/venv/bin/activate"
+python "/Users/jivagomenezes/DEV/video_subtitle/app.py"

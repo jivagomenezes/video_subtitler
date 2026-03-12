@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(source venv/bin/activate)",
+      "Bash(pip show Pillow)",
+      "Bash(pip install Pillow -q)",
+      "Bash(python create_icon.py)",
+      "Bash(bash build_app.sh)",
+      "Bash(pip install deep-translator -q)",
+      "Bash(python -c \":*)",
+      "Bash(source /Users/jivagomenezes/DEV/video_subtitle/venv/bin/activate)",
+      "Bash(timeout 6 python /Users/jivagomenezes/DEV/video_subtitle/app.py)",
+      "Bash(echo \"exit:$?\")",
+      "Bash(gtimeout 5 python /Users/jivagomenezes/DEV/video_subtitle/app.py)",
+      "Bash(open \"/Users/jivagomenezes/DEV/video_subtitle/Video Subtitle.app\")",
+      "Bash(open '/Users/jivagomenezes/DEV/video_subtitle/Video Subtitle.app' sleep 5 cat /tmp/videosubtitle_launch.log)",
+      "Bash(python -:*)",
+      "Bash(/opt/homebrew/bin/ffmpeg -filters)",
+      "Read(//opt/homebrew/Cellar/ffmpeg/8.0.1_4/bin/**)",
+      "Bash(/opt/homebrew/bin/ffmpeg -version)",
+      "Bash(brew info:*)",
+      "Bash(brew list:*)",
+      "Bash(bash /Users/jivagomenezes/DEV/video_subtitle/build_app.sh)",
+      "Bash(brew reinstall:*)",
+      "Bash(SRT=\"/Users/jivagomenezes/Movies/subtitled_videos/video6_PTBR_subtitle.srt\" VIDEO=\"/Users/jivagomenezes/Movies/subtitled_videos/video6_PTBR.mp4\" OUT=\"/tmp/test_burnin.mp4\" SRT_ESC=\"$SRT//:/\\\\:\" __NEW_LINE_6c112997258c5b18__ /opt/homebrew/opt/ffmpeg-full/bin/ffmpeg -y -i \"$VIDEO\" -vf \"subtitles=$SRT_ESC:force_style=FontSize=18\\\\,Bold=1\\\\,Outline=1\\\\,Shadow=0.5\\\\,MarginV=35\" -c:v libx264 -crf 23 -preset fast -c:a copy \"$OUT\")",
+      "Bash(VIDEO=\"/Users/jivagomenezes/Movies/subtitled_videos/video6_PTBR.mp4\" SRT=\"/Users/jivagomenezes/Movies/subtitled_videos/video6_subtitle.srt\" OUT=\"/tmp/test_burnin.mp4\" SRT_ESC=\"$SRT//:/\\\\:\" __NEW_LINE_ff0ad288113c91e0__ /opt/homebrew/opt/ffmpeg-full/bin/ffmpeg -y -i \"$VIDEO\" -vf \"subtitles=$SRT_ESC:force_style=FontSize=22\\\\,Bold=1\\\\,MarginV=30\" -c:v libx264 -crf 23 -preset fast -c:a copy \"$OUT\")",
+      "Bash(python3 -c \":*)",
+      "Bash(bash -n /Users/jivagomenezes/DEV/video_subtitle/build_release.sh)"
+    ]
+  }
+}
